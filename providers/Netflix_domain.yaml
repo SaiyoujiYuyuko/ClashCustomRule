@@ -1,5 +1,4 @@
 payload:
-  - 'netflix.com.edgesuite.net'
   - '+.fast.com'
   - '+.netflix.com'
   - '+.netflix.net'
@@ -18,3 +17,5 @@ payload:
   - '+.nflximg.net'
   - '+.nflxso.net'
   - '+.nflxvideo.net'
+  - 'netflix.com.edgesuite.net'
+  - '+.com.netflix.ninja'
