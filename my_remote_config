@@ -11,24 +11,11 @@
 
 ;设置规则标志位
 ;有个小技巧，下列不同列表可能会有重复规则，可以将想要命中的规则尽量提前
-ruleset=🎯 全球直连,http:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt,86400
-ruleset=🎯 全球直连,http:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt,86400
-ruleset=🎯 全球直连,http:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt,86400
-ruleset=🎯 全球直连,http:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt,86400
-ruleset=🎯 全球直连,http:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt,86400
-ruleset=🎯 全球直连,http:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt,86400
-ruleset=🎯 全球直连,http:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt,86400
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/direct.list
-ruleset=🚀 节点选择,http:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt,86400
-ruleset=🚀 节点选择,http:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt,86400
-ruleset=🚀 节点选择,http:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt,86400
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/proxies.list
-ruleset=🚀 节点选择,http:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt,86400
-ruleset=🚀 节点选择,http:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt,86400
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/direct.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
-ruleset=🛑 广告拦截,http:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt,86400
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
 ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
