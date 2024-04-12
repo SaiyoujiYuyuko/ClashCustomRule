@@ -1,0 +1,466 @@
+# Merge Template for clash verge
+# The `Merge` format used to enhance profile
+
+prepend-rules:
+  - RULE-SET,applications,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,google,🚀 节点选择
+  - RULE-SET,proxy,🚀 节点选择
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - RULE-SET,telegramcidr,🚀 节点选择
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT  
+  - RULE-SET,proxies_classical,🚀 节点选择
+  - RULE-SET,direct_domain,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 广告拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,BanEasyList,🆎 AdBlock
+  - RULE-SET,BanEasyListChina,🆎 AdBlock
+  - RULE-SET,ad_domain,🆎 AdBlock
+  - RULE-SET,BanEasyPrivacy,🛡️ 隐私防护
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,OneDrive,Ⓜ️ 微软服务
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 Telegram      
+  - RULE-SET,Epic,🎮 游戏平台
+  - RULE-SET,Sony,🎮 游戏平台
+  - RULE-SET,Steam,🎮 游戏平台
+  - RULE-SET,Nintendo_domain,🎮 Nintendo
+  - RULE-SET,openai_classical,🤖 OpenAI
+  - RULE-SET,deepl_domain,🤖 DeepL
+  - RULE-SET,TikTok,🎵 TikTok  
+  - RULE-SET,YouTube,📹 YouTube
+  - RULE-SET,Netflix,🎥 Netflix
+  - RULE-SET,NetflixIP,🎥 Netflix
+  - RULE-SET,DisneyPlus,🎥 Disney+
+  - RULE-SET,gitlab_domain,🌪 Gitlab
+  - RULE-SET,spotify_classical,🎼 Spotify
+  - RULE-SET,dmmjp_domain,🍑 DMMCOJP
+  - RULE-SET,Bahamut,📺 巴哈姆特
+  - RULE-SET,Bilibili,📺 Bilibili
+  - RULE-SET,BilibiliHMT,📺 Bilibili
+  - RULE-SET,ChinaMedia,🌏 国内媒体
+  - RULE-SET,ProxyMedia_classical,🌏 国外媒体
+  - RULE-SET,weibo_domain,📰 微博  
+  - RULE-SET,wechat_classical,💬 微信
+  - RULE-SET,XiaoHongShu_domain,🍠 小红书
+  - RULE-SET,ByteDance_domain,🕺 字节跳动
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连    
+prepend-rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+
+  proxies_classical:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/proxies_classical.yaml"
+    interval: 86400
+    path: ./chinnsenn/proxies_classical.yaml
+  direct_domain:
+    behavior: domain # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/direct_domain.yaml"
+    interval: 86400
+    path: ./chinnsenn/direct_domain.yaml
+    
+  SteamCN:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml"
+    interval: 86400
+    path: ./ACL4SSR/SteamCN.yaml
+    
+  LocalAreaNetwork:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"
+    interval: 86400
+    path: ./ACL4SSR/LocalAreaNetwork.yaml
+    
+    
+  UnBan:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml"
+    interval: 86400
+    path: ./ACL4SSR/UnBan.yaml
+    BanAD:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml"
+    interval: 86400
+    path: ./ACL4SSR/BanAD.yaml
+    
+  BanProgramAD:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml"
+    interval: 86400
+    path: ./ACL4SSR/BanProgramAD.yaml
+    
+  BanEasyList:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyList.yaml"
+    interval: 86400
+    path: ./ACL4SSR/BanEasyList.yaml
+    
+  BanEasyListChina:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyListChina.yaml"
+    interval: 86400
+    path: ./ACL4SSR/BanEasyListChina.yaml
+    
+  ad_domain:
+    behavior: domain # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/ad_domain.yaml"
+    interval: 86400
+    path: ./chinnsenn/ad_domain.yaml
+    
+  BanEasyPrivacy:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyPrivacy.yaml"
+    interval: 86400
+    path: ./ACL4SSR/BanEasyPrivacy.yaml
+    
+  GoogleFCM:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml"
+    interval: 86400
+    path: ./ACL4SSR/GoogleFCM.yaml
+    
+  GoogleCN:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml"
+    interval: 86400
+    path: ./ACL4SSR/GoogleCN.yaml
+  OneDrive:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
+    interval: 86400
+    path: ./ACL4SSR/OneDrive.yaml
+    
+  Microsoft:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml"
+    interval: 86400
+    path: ./ACL4SSR/Microsoft.yaml
+    
+  Apple:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml"
+    interval: 86400
+    path: ./ACL4SSR/Apple.yaml
+    
+  Telegram:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml"
+    interval: 86400
+    path: ./ACL4SSR/Telegram.yaml
+          
+  Epic:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Epic.yaml"
+    interval: 86400
+    path: ./ACL4SSR/Epic.yaml
+    
+  Sony:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Sony.yaml"
+    interval: 86400
+    path: ./ACL4SSR/Sony.yaml
+    
+  Steam:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml"
+    interval: 86400
+    path: ./ACL4SSR/Steam.yaml
+  Nintendo_domain:
+    behavior: domain # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/Nintendo_domain.yaml"
+    interval: 86400
+    path: ./chinnsenn/Nintendo_domain.yaml
+    
+  openai_classical:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/openai_classical.yaml"
+    interval: 86400
+    path: ./chinnsenn/openai_classical.yaml
+    
+  TikTok:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/TikTok.yaml"
+    interval: 86400
+    path: ./ACL4SSR/TikTok.yaml
+    
+  YouTube:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml"
+    interval: 86400
+    path: ./ACL4SSR/YouTube.yaml
+    
+  Netflix:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Netflix.yaml"
+    interval: 86400
+    path: ./ACL4SSR/Netflix.yaml
+    
+  NetflixIP:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetflixIP.yaml"
+    interval: 86400
+    path: ./ACL4SSR/NetflixIP.yaml
+    
+  DisneyPlus:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/DisneyPlus.yaml"
+    interval: 86400
+    path: ./ACL4SSR/DisneyPlus.yaml
+  gitlab_domain:
+    behavior: domain # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/gitlab_domain.yaml"
+    interval: 86400
+    path: ./chinnsenn/gitlab_domain.yaml
+    
+  spotify_classical:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/spotify_classical.yaml"
+    interval: 86400
+    path: ./chinnsenn/spotify_classical.yaml
+    
+  dmmjp_domain:
+    behavior: domain # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/dmmjp_domain.yaml"
+    interval: 86400
+    path: ./chinnsenn/dmmjp_domain.yaml
+    
+  Bahamut:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml"
+    interval: 86400
+    path: ./ACL4SSR/Bahamut.yaml
+    
+  Bilibili:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml"
+    interval: 86400
+    path: ./ACL4SSR/Bilibili.yaml
+    
+  BilibiliHMT:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/BilibiliHMT.yaml"
+    interval: 86400
+    path: ./ACL4SSR/BilibiliHMT.yaml
+    
+  ChinaMedia:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaMedia.yaml"
+    interval: 86400
+    path: ./ACL4SSR/ChinaMedia.yaml
+    
+  ProxyMedia_classical:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/ProxyMedia_classical.yaml"
+    interval: 86400
+    path: ./chinnsenn/ProxyMedia_classical.yaml
+    
+  weibo_domain:
+    behavior: domain # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/weibo_domain.yaml"
+    interval: 86400
+    path: ./chinnsenn/weibo_domain.yaml
+    
+  wechat_classical:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/wechat_classical.yaml"
+    interval: 86400
+    path: ./chinnsenn/wechat_classical.yaml
+    
+  XiaoHongShu_domain:
+    behavior: domain # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/XiaoHongShu_domain.yaml"
+    interval: 86400
+    path: ./chinnsenn/XiaoHongShu_domain.yaml
+    
+  ByteDance_domain:
+    behavior: domain # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/ByteDance_domain.yaml"
+    interval: 86400
+    path: ./chinnsenn/ByteDance_domain.yaml
+    
+  ProxyGFWlist:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml"
+    interval: 86400
+    path: ./ACL4SSR/ProxyGFWlist.yaml
+    
+  ChinaDomain:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml"
+    interval: 86400
+    path: ./ACL4SSR/ChinaDomain.yaml
+    
+  ChinaCompanyIp:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaCompanyIp.yaml"
+    interval: 86400
+    path: ./ACL4SSR/ChinaCompanyIp.yaml
+    
+  Download:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Download.yaml"
+    interval: 86400
+    path: ./ACL4SSR/Download.yaml        
+prepend-proxies:
+
+prepend-proxy-providers:
+
+prepend-proxy-groups:
+
+append-rules:
+
+append-rule-providers:
+
+append-proxies:
+
+append-proxy-providers:
+
+append-proxy-groups:
