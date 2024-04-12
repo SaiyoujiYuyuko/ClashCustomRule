@@ -13,10 +13,12 @@
 ;有个小技巧，下列不同列表可能会有重复规则，可以将想要命中的规则尽量提前
 
 ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/chinnsenn/ClashCustomRule@master/direct.list
-ruleset=🚀 节点选择,https://cdn.jsdelivr.net/gh/chinnsenn/ClashCustomRule@master/proxies.list
 ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/chinnsenn/ClashCustomRule@master/direct.list
 ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list
+ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
+ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
+ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
 ruleset=🛑 广告拦截,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list
 ruleset=🍃 应用净化,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
 ruleset=🆎 AdBlock,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanEasyList.list
@@ -54,9 +56,7 @@ ruleset=💬 微信,https://cdn.jsdelivr.net/gh/chinnsenn/ClashCustomRule@master
 ruleset=🍠 小红书,https://cdn.jsdelivr.net/gh/chinnsenn/ClashCustomRule@master/XiaoHongShu.list
 ruleset=🕺 字节跳动,https://cdn.jsdelivr.net/gh/chinnsenn/ClashCustomRule@master/ByteDance.list
 ruleset=🚀 节点选择,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list
-ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
-ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
-ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
+ruleset=🚀 节点选择,https://cdn.jsdelivr.net/gh/chinnsenn/ClashCustomRule@master/proxies.list
 ruleset=🎯 全球直连,[]GEOIP,CN
 ruleset=🎯 全球直连,[]GEOIP,LAN
 ruleset=🐟 漏网之鱼,[]FINAL
