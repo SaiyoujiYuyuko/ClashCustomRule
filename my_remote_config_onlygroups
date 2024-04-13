@@ -74,7 +74,7 @@ custom_proxy_group=🇷🇺 俄罗斯`select`(俄|俄罗斯|RUS|RF)
 ;设置分组标志位
 
 enable_rule_generator=false
-overwrite_original_rules=true
+overwrite_original_rules=false
 skip_failed_links=true
 
 #过滤节点，正则匹配
