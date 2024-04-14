@@ -1,16 +1,16 @@
-    - DOMAIN,api.biliapi.com,📺 Bilibili
-    - DOMAIN,api.biliapi.net,📺 Bilibili
-    - DOMAIN,api.bilibili.com,📺 Bilibili
-    - DOMAIN,app.biliapi.com,📺 Bilibili
-    - DOMAIN,app.biliapi.net,📺 Bilibili
-    - DOMAIN,app.bilibili.com,📺 Bilibili
-    - DOMAIN,grpc.biliapi.net,📺 Bilibili
-    - DOMAIN,m.bilibili.com,📺 Bilibili
-    - DOMAIN,upos-hz-mirrorakam.akamaized.net,📺 Bilibili
-    - DOMAIN,www.bilibili.com,📺 Bilibili
-    - DOMAIN-KEYWORD,cn-hk-eq-bcache-,📺 Bilibili
-    - DOMAIN,cache.video.iqiyi.com,📺 Bilibili
-    - IP-CIDR,116.211.202.206/32,📺 Bilibili,no-resolve
-    - IP-CIDR,116.211.202.216/32,📺 Bilibili,no-resolve
-    - DOMAIN-SUFFIX,api.mgtv.com,📺 Bilibili
-    - DOMAIN,mobileso.bz.mgtv.com,📺 Bilibili
+DOMAIN,api.biliapi.com
+DOMAIN,api.biliapi.net
+DOMAIN,api.bilibili.com
+DOMAIN,app.biliapi.com
+DOMAIN,app.biliapi.net
+DOMAIN,app.bilibili.com
+DOMAIN,grpc.biliapi.net
+DOMAIN,m.bilibili.com
+DOMAIN,upos-hz-mirrorakam.akamaized.net
+DOMAIN,www.bilibili.com
+DOMAIN-KEYWORD,cn-hk-eq-bcache-
+DOMAIN,cache.video.iqiyi.com
+IP-CIDR,116.211.202.206/32,no-resolve
+IP-CIDR,116.211.202.216/32,no-resolve
+DOMAIN-SUFFIX,api.mgtv.com
+DOMAIN,mobileso.bz.mgtv.com
