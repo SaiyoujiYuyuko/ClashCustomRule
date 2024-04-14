@@ -1,12 +1,12 @@
-    - DOMAIN-SUFFIX,googlevideo.com,📹 YouTube
-    - DOMAIN-SUFFIX,withyoutube.com,📹 YouTube
-    - DOMAIN-SUFFIX,youtu.be,📹 YouTube
-    - DOMAIN-SUFFIX,youtube.com,📹 YouTube
-    - DOMAIN-SUFFIX,youtubeeducation.com,📹 YouTube
-    - DOMAIN-SUFFIX,youtubegaming.com,📹 YouTube
-    - DOMAIN-SUFFIX,youtubekids.com,📹 YouTube
-    - DOMAIN-SUFFIX,youtube-nocookie.com,📹 YouTube
-    - DOMAIN-SUFFIX,yt.be,📹 YouTube
-    - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
-    - DOMAIN,youtubei.googleapis.com,📹 YouTube
-    - DOMAIN,yt3.ggpht.com,📹 YouTube
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
