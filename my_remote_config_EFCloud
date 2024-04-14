@@ -1,18 +1,5 @@
 [custom]
 ruleset=🚀 节点选择,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/PROXIES.list
-ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/DIRECT.list
-ruleset=📢 谷歌FCM,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/GoogleFCM.list
-ruleset=Ⓜ️ 微软服务,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/Microsoft.list
-ruleset=🍎 苹果服务,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/APPLE.list
-ruleset=📲 Telegram,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/Telegram.list
-ruleset=🎮 游戏平台,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/STEAM.list
-ruleset=🤖 OpenAI,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/OpenAi.list
-ruleset=📹 YouTube,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/YouTube.list
-ruleset=🎥 Netflix,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/Netflix.list
-ruleset=🎥 Disney+,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/Disney.list
-ruleset=🎼 Spotify,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/Spotify.list
-ruleset=📺 巴哈姆特,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/Bahamut.list
-ruleset=📺 Bilibili,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/Bilibili.list
 ruleset=DIRECT,[]GEOIP,LAN
 ruleset=DIRECT,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
