@@ -1,10 +1,10 @@
-    - DOMAIN,challenges.cloudflare.com,🤖 OpenAI
-    - DOMAIN,events.statsigapi.net,🤖 OpenAI
-    - DOMAIN,featuregates.org,🤖 OpenAI
-    - DOMAIN,o33249.ingest.sentry.io,🤖 OpenAI
-    - DOMAIN,openaiapi-site.azureedge.net,🤖 OpenAI
-    - DOMAIN-SUFFIX,ai.com,🤖 OpenAI
-    - DOMAIN-SUFFIX,auth0.com,🤖 OpenAI
-    - DOMAIN-SUFFIX,identrust.com,🤖 OpenAI
-    - DOMAIN-SUFFIX,intercom.io,🤖 OpenAI
-    - DOMAIN-SUFFIX,openai.com,🤖 OpenAI
+DOMAIN,challenges.cloudflare.com
+DOMAIN,events.statsigapi.net
+DOMAIN,featuregates.org
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,openai.com
