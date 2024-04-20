@@ -1,4 +1,6 @@
 [custom]
+ruleset=🔰 节点选择,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/my_remote_config_extra_proxies.list
+ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/my_remote_config_extra_direct.list
 ruleset=🔰 节点选择,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/PROXIES.list
 ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/DIRECT.list
 ruleset=📢 谷歌FCM,https://cdn.jsdelivr.net/gh/SaiyoujiYuyuko/ClashCustomRule@master/EFCloudRules/GoogleFCM.list
